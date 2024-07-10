@@ -69,13 +69,15 @@
   letter-spacing: 0%;
   text-align: center;
 }
-/* SECOND SECTION DESIGN STYLING START */
+/* Banner Section Styling Start */
+
+/* MAIN SECTION DESIGN STYLING START */
 .second-section {
   max-width: 1140px;
   min-height: 1395px;
   margin: 0 auto;
   border-radius: 16px;
-  background: rgba(13, 19, 33, 0.02);
+  background: rgba(13, 19, 33, 0.05);
 }
 .second-section-container {
   max-width: 976px;
@@ -322,4 +324,110 @@
 }
 .border-radius {
   border-radius: 16px;
+}
+.fourth-section {
+  width: 1140px;
+  height: 1439px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.fourth-section-container {
+  width: 852px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+}
+.fourth-section-container-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.fourth-section-container-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.description-container {
+  width: 1140px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+}
+.html-content {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 30px;
+  gap: 20px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.07);
+  margin-right: 20px;
+}
+.css-content {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 30px;
+  gap: 20px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.07);
+  margin-right: 20px;
+}
+.javascript-content {
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px 30px;
+  gap: 20px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.07);
+  margin-right: 20px;
+}
+.html-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.html-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.btn {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
