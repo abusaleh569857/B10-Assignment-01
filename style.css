@@ -49,7 +49,7 @@ html {
 .banner-container {
   max-width: 1440px;
   min-height: 652px;
-  background-image: url("/Images/Hero-bg.png");
+  background-image: url("./Images/hero-bg.png");
 }
 .banner {
   max-width: 998px;
@@ -568,7 +568,7 @@ html {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url("/Images/handshake.jpg");
+    url("./Images/handshake.jpg");
 
   border-radius: 16px;
 
