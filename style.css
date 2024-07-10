@@ -113,7 +113,7 @@ html {
 /* MAIN SECTION DESIGN STYLING START */
 .second-section {
   max-width: 1140px;
-  min-height: 1395px;
+  height: 1440px;
   margin: 0 auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.05);
@@ -319,6 +319,7 @@ html {
   max-width: 1140px;
   min-height: 777px;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .third-container {
   width: 852px;
@@ -366,8 +367,7 @@ html {
 }
 .fourth-section {
   width: 1140px;
-  height: 1439px;
-  border: 2px solid red;
+  height: 1660px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -462,6 +462,86 @@ html {
   opacity: 0.7;
 }
 .btn {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.next-target {
+  width: 1140px;
+  height: 920px;
+}
+.next-target-first-part {
+  width: 946px;
+  height: 113px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.first-part-title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.next-part-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.react-container {
+  width: 1060px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+.react-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.react-title {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.react-description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.react-btn {
   color: rgb(13, 19, 33);
   font-size: 16px;
   font-weight: 700;
