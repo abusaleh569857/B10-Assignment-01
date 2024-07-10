@@ -10,6 +10,42 @@ html {
   scroll-behavior: smooth;
 }
 /* Banner Section Styling Start */
+.navbar {
+  max-width: 1440px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar-menu {
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-menu li {
+  list-style-type: none;
+}
+.navbar-menu li a {
+  text-decoration: none;
+}
+.nav-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
+}
+
+.resume {
+  border: 2px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
+  padding: 20px;
+  opacity: 0.8;
+}
 .banner-container {
   max-width: 1440px;
   min-height: 652px;
