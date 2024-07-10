@@ -73,7 +73,6 @@
 .second-section {
   max-width: 1140px;
   min-height: 1395px;
-  border: 2px solid purple;
   margin: 0 auto;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
@@ -81,22 +80,20 @@
 .second-section-container {
   max-width: 976px;
   min-height: 1235px;
-  border: 2px solid green;
   margin: 0 auto;
   margin-top: 80px;
 }
 .development {
   max-width: 852px;
   min-height: 115px;
-  border: 2px solid red;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  padding: 0px;
+  padding-top: 50px;
   gap: 20px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .development-title {
   display: flex;
@@ -130,7 +127,6 @@
 .second-section-details-container {
   max-width: 980px;
   min-height: 1080px;
-  border: 2px solid pink;
 }
 .details-container {
   width: 946px;
@@ -141,7 +137,6 @@
     rgb(255, 255, 255),
     rgba(255, 255, 255, 0) 100%
   );
-  border: 2px solid purple;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -152,7 +147,6 @@
 .first-item {
   max-width: 850px;
   min-height: 240px;
-  border: 2px solid greenyellow;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -217,7 +211,6 @@
 .second-item {
   max-width: 850px;
   min-height: 240px;
-  border: 2px solid greenyellow;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -280,4 +273,53 @@
   text-align: center;
   margin: 0px 10px;
   padding-top: 3px;
+}
+.third-section {
+  max-width: 1140px;
+  min-height: 777px;
+  border: 2px solid magenta;
+  margin: 0 auto;
+}
+.third-container {
+  width: 852px;
+  height: 115px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+}
+.title {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.description {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.video-section {
+  width: 1140px;
+  height: 614px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.video {
+  width: 1076px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 30px;
+  border-radius: 16px;
+}
+.border-radius {
+  border-radius: 16px;
 }
