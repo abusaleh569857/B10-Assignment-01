@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Azeret Mono", monospace;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* Banner Section Styling Start */
 .banner-container {
   max-width: 1440px;
